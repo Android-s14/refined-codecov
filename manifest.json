@@ -1,0 +1,14 @@
+{
+  "name": "Refined Codecov",
+  "version": "0.0.1",
+  "description": "Convenience utils for Codecov",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_title": "Expand collapsed files"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "permissions": ["activeTab"]
+}
